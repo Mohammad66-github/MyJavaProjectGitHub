@@ -62,14 +62,14 @@ public class GradeBook
 	
 	int grade;
 	
-	System.out.printf("%s\n%s\n     %s\n   %s\n", 
+	System.out.printf("%s\n%s\n     %s\n   %s\n" , 
 			"Enter the interger grade in the range 0-100", 
 			"Type the end of file indicator to terminate input:", 
-			   "On UNix/Linux/Mac Os x typ <Ctrl> z then press Enter"   );
+			   "On UNix/Linux/Mac Os x typ <Ctrl> z then press Enter" );
 		
 		
 		
-		while (input.hasNext())
+		while (input.hasNext() )
 		{
 			
 	grade = input.nextInt();
@@ -85,12 +85,12 @@ public class GradeBook
 	
 	
 		
-	private void incrementLetterGradeCounter(int grade) 
+	private void incrementLetterGradeCounter( int grade) 
 	
 	{
-		
-		
-		
+
+
+
  switch (grade/10) 
  
 {
@@ -133,9 +133,11 @@ public class GradeBook
     	
     		double average = (double) total / gradeCounter;
     		
-    		System.out.printf("Total of the %d grade is %2f\n", average);
+    		System.out.printf("Total of the %d grade  enetrd is %d\n", gradeCounter, total);
     		
-    		System.out.printf("%s\n%s%d\n%s%d\n%s%d\n", 
+    		System.out.printf("Class average is 2f\n", average);
+    		
+    		System.out.printf("%s\n%s%d\n%s%d\n%s%d\n%s%d\n%s%d\n", 
     				"Number of student who recieved each grade:",
     				"A: ", aCount, 
     				"B: ", bCount,
